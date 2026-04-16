@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+    color: #444444;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #004b87;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 5%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-left: 30px;
+}
+
+.main-nav a {
+    font-weight: 500;
+    color: #555555;
+    font-size: 16px;
+}
+
+.main-nav a:hover {
+    color: #004b87;
+}
+
+.home-section {
+    background-color: #004b87;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home-section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.carousel-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.carousel-section h2 {
+    color: #004b87;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.carousel-container {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.carousel-controls {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.carousel-controls button {
+    padding: 12px 24px;
+    background-color: #004b87;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.carousel-controls button:hover {
+    background-color: #0066cc;
+}
+
+footer {
+    background-color: #004b87;
+    color: white;
+    padding: 40px 0;
+    margin-top: 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 5%;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: #cce0ff;
+    text-decoration: underline;
+}
