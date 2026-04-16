@@ -54,7 +54,7 @@ header {
 }
 
 .home-section {
-    background-color: #004b87;
+    background: linear-gradient(145deg, #003972, #001f3f);
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -146,23 +146,30 @@ footer a {
 }
 
 .text-container {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 30px;
-  line-height: 1.8;
-  font-size: 1.1rem;
-  color: #e0e0e0;
-  text-align: center;
-  background: linear-gradient(145deg, #003366, #001f3f);
-  border-radius: 15px;
-  border-left: 5px solid #ffffff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  transform: translateY(0);
-  transition: transform 0.4s ease-out;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    text-align: justify;
+    background: linear-gradient(180deg, #004b87, #003560);
+    border-radius: 15px;
+    border-left: 5px solid #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
+    transition: transform 0.4s ease-out;
 }
 
 .text-container:hover {
-  transform: translateY(-5px);
-  transition: transform 0.3s ease-in;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in;
 }
 
+.container-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+}
