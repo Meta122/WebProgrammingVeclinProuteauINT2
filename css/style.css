@@ -155,7 +155,6 @@ footer a {
     text-align: justify;
     background: linear-gradient(180deg, #004b87, #003560);
     border-radius: 15px;
-    border-left: 5px solid #ffffff;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transform: translateY(0);
     transition: transform 0.4s ease-out;
