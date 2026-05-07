@@ -290,3 +290,116 @@ footer a {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+.box {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.box fieldset {
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+.box fieldset:hover {
+    border-color: #cce0ff;
+}
+
+.box legend {
+    color: #004b87;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.box p {
+    margin-bottom: 15px;
+}
+
+#information label {
+    font-weight: bold;
+    color: #003060;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="date"],
+.box select {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    background-color: #ffffff;
+    color: #444444;
+}
+
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+.box input[type="date"]:focus,
+.box select:focus {
+    outline: none;
+    border-color: #004b87;
+}
+
+fieldset.quiz {
+    color: #003060;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+fieldset.quiz p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+fieldset.quiz label {
+    font-weight: normal;
+    color: #555555;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+fieldset.quiz input[type="radio"],
+fieldset.quiz input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.box input[type="button"],
+.box input[type="submit"] {
+    background-color: #004b87;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.box input[type="button"]:hover,
+.box input[type="submit"]:hover {
+    background-color: #003060;
+}
+
+.box > p {
+    text-align: center;
+}
