@@ -275,3 +275,18 @@ footer a {
     justify-content: center;
     padding: 40px 20px;
 }
+
+#programs-container {
+    display: block;
+}
+
+#programs-container .text-container {
+    margin: 40px auto;
+}
+
+.faculties-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
