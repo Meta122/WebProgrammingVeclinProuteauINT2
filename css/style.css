@@ -171,6 +171,8 @@ header {
     justify-content: space-between;
     margin-bottom: 40px;
     position: relative;
+    transform: translateY(0);
+    transition: transform 0.4s ease-out;
 }
 
 .teacher-card-right img {
@@ -200,6 +202,8 @@ header {
     justify-content: space-between;
     margin-bottom: 40px;
     position: relative;
+    transform: translateY(0);
+    transition: transform 0.4s ease-out;
 }
 
 .teacher-card-left img {
@@ -244,7 +248,7 @@ footer a {
     text-decoration: underline;
 }
 
-.text-container {
+.text-container{
     max-width: 800px;
     margin: 40px auto;
     padding: 30px;
@@ -259,7 +263,7 @@ footer a {
     transition: transform 0.4s ease-out;
 }
 
-.text-container:hover {
+.text-container:hover, .teacher-card-left:hover, .teacher-card-right:hover {
     transform: translateY(-5px);
     transition: transform 0.3s ease-in;
 }
