@@ -28,102 +28,106 @@
     </header>
 
     <main>
-        <form action="/my-handling-form-page" method="post" class="box" name="Quiz" id="QuizID" onsubmit="return false">
-        <fieldset id="information">
-            <legend>Your informations</legend>
-            <p>
-                <label for="name">Name :</label>
-                <input type="text" id="name" name="user_name">
-            </p>
-            <p>
-                <label for="surname">Surname :</label>
-                <input type="text" id="surname" name="user_surname">
-            </p>
-            <p>
-                <label for="birth">Birth date :</label>
-                <input type="date" id="birth" name="user_birth">
-            </p>
-            <p>
-                <label for="mail">Mail address :</label>
-                <input type="email" id="mail" name="user_email">
-            </p>
-            <p>
-                <label for="status">Status :</label>
-                <select name="user_status" id="status">
-                    <option value="">Select your status</option>
-                    <option value="Single">Single</option>
-                    <option value="Married">Married</option>
-                    <option value="Divorced">Divorced</option>
-                    <option value="Other">Other</option>
-                </select>
-            </p>
-            <input type="button" value = "Start Quiz" onclick = "quizAlert()">
-        </fieldset>
-        <fieldset class="quiz">
-            <legend>Computer Science Quiz</legend>
-            
-            <p>1. What does CPU stand for?</p>
-            <p>
-                <input type="radio" id="q1a" name="q1" value="a">
-                <label for="q1a">Central Processing Unit</label>
-            </p>
-            <p>
-                <input type="radio" id="q1b" name="q1" value="b">
-                <label for="q1b">Computer Personal Unit</label>
-            </p>
-            <p>
-                <input type="radio" id="q1c" name="q1" value="c">
-                <label for="q1c">Central Performance Unit</label>
-            </p>
-            
-            <p>2. Which of the following are considered programming languages?</p>
-            <p>
-                <input type="checkbox" id="q2a" name="q2_a">
-                <label for="q2a">Python</label>
-            </p>
-            <p>
-                <input type="checkbox" id="q2b" name="q2_b">
-                <label for="q2b">Java</label>
-            </p>
-            <p>
-                <input type="checkbox" id="q2c" name="q2_c">
-                <label for="q2c">HTTP</label>
-            </p>
-            
-            <p>3. Name a widely used operating system:</p>
-            <p>
-                <input type="text" id="q3" name="user_os">
-            </p>
+        <section class="home-section">
+            <h1>Computer Science Quiz</h1>
+            <p class="text-container">Test your knowledge of computer science with this quiz! Answer the following questions to see how much you know about the world of computing.</p>
 
-            <p>4. What does HTTP stand for?</p>
-            <p>
-                <input type="radio" id="q4a" name="q4" value="a">
-                <label for="q4a">HyperText Transfer Protocol</label>
-            </p>
-            <p>
-                <input type="radio" id="q4b" name="q4" value="b">
-                <label for="q4b">HyperText Transmission Process</label>
-            </p>
-            <p>
-                <input type="radio" id="q4c" name="q4" value="c">
-                <label for="q4c">Hyperlink Transfer Technology</label>
-            </p>
+            <form action="/my-handling-form-page" method="post" class="box" name="Quiz" id="QuizID" onsubmit="return false">
+            <fieldset id="information">
+                <legend>Your informations</legend>
+                <p>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" name="user_name">
+                </p>
+                <p>
+                    <label for="surname">Surname :</label>
+                    <input type="text" id="surname" name="user_surname">
+                </p>
+                <p>
+                    <label for="birth">Birth date :</label>
+                    <input type="date" id="birth" name="user_birth">
+                </p>
+                <p>
+                    <label for="mail">Mail address :</label>
+                    <input type="email" id="mail" name="user_email">
+                </p>
+                <p>
+                    <label for="status">Status :</label>
+                    <select name="user_status" id="status">
+                        <option value="">Select your status</option>
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Divorced">Divorced</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </p>
+                <input type="button" value = "Start Quiz" onclick = "quizAlert()">
+            </fieldset>
+            <fieldset class="quiz">
+                <legend>Computer Science Quiz</legend>
+                
+                <p>1. What does CPU stand for?</p>
+                <p>
+                    <input type="radio" id="q1a" name="q1" value="a">
+                    <label for="q1a">Central Processing Unit</label>
+                </p>
+                <p>
+                    <input type="radio" id="q1b" name="q1" value="b">
+                    <label for="q1b">Computer Personal Unit</label>
+                </p>
+                <p>
+                    <input type="radio" id="q1c" name="q1" value="c">
+                    <label for="q1c">Central Performance Unit</label>
+                </p>
+                
+                <p>2. Which of the following are considered programming languages?</p>
+                <p>
+                    <input type="checkbox" id="q2a" name="q2_a">
+                    <label for="q2a">Python</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="q2b" name="q2_b">
+                    <label for="q2b">Java</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="q2c" name="q2_c">
+                    <label for="q2c">HTTP</label>
+                </p>
+                
+                <p>3. Name a widely used operating system:</p>
+                <p>
+                    <input type="text" id="q3" name="user_os">
+                </p>
 
-            <p>5. Is RAM considered volatile memory? (data is lost when power is turned off)</p>
-            <p>
-                <input type="radio" id="q5a" name="q5" value="true">
-                <label for="q5a">True</label>
-            </p>
-            <p>
-                <input type="radio" id="q5b" name="q5" value="false">
-                <label for="q5b">False</label>
-            </p>
-        </fieldset>
-        <p>
-            <input type="submit" class="quiz" onclick="submitQuiz()">
-        </p>
-    </form>
+                <p>4. What does HTTP stand for?</p>
+                <p>
+                    <input type="radio" id="q4a" name="q4" value="a">
+                    <label for="q4a">HyperText Transfer Protocol</label>
+                </p>
+                <p>
+                    <input type="radio" id="q4b" name="q4" value="b">
+                    <label for="q4b">HyperText Transmission Process</label>
+                </p>
+                <p>
+                    <input type="radio" id="q4c" name="q4" value="c">
+                    <label for="q4c">Hyperlink Transfer Technology</label>
+                </p>
 
+                <p>5. Is RAM considered volatile memory? (data is lost when power is turned off)</p>
+                <p>
+                    <input type="radio" id="q5a" name="q5" value="true">
+                    <label for="q5a">Yes</label>
+                </p>
+                <p>
+                    <input type="radio" id="q5b" name="q5" value="false">
+                    <label for="q5b">No</label>
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" class="quiz" onclick="submitQuiz()">
+            </p>
+            </form>
+        </section>
 
     </main>
 
@@ -137,5 +141,6 @@
             </nav>
         </div>
     </footer>
+    <script src="../js/Quiz.js"></script>
 </body>
 </html>

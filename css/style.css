@@ -295,7 +295,7 @@ footer a {
     max-width: 800px;
     margin: 40px auto;
     padding: 40px;
-    background-color: #ffffff;
+    background-color: #ebf2fd;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -305,7 +305,7 @@ footer a {
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 30px;
-    background-color: #fafafa;
+    background-color: #ebf2fd;
     transition: border-color 0.3s ease;
 }
 
@@ -402,4 +402,27 @@ fieldset.quiz input[type="checkbox"] {
 
 .box > p {
     text-align: center;
+}
+
+#results {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #f9f9f9; /* Light grey background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#results th {
+    background-color: #d5ebfd; /* Green header (change to match your theme) */
+    color: #003060;
+    padding: 12px 15px;
+}
+
+#results td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    color : #003060;
 }
