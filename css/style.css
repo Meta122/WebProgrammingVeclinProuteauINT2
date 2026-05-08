@@ -53,7 +53,7 @@ header {
 }
 
 .home-section {
-    background: linear-gradient(145deg, #003972, #001f3f);
+    background: linear-gradient(145deg, #0A316C, #001f3f);
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -77,7 +77,7 @@ header {
 }
 
 .carousel-section h2 {
-    color: #004b87;
+    color: #0A316C;
     margin-bottom: 40px;
     font-weight: 700;
     font-size: 30px;
@@ -119,7 +119,7 @@ header {
 
 .carousel-controls button {
     background-color: rgba(255, 255, 255, 0.3);
-    color: #004b87;
+    color: #0A316C;
     border: none;
     border-radius: 50%;
     width: 50px;
@@ -134,7 +134,7 @@ header {
 }
 
 .carousel-controls button:hover {
-    background-color: #004b87;
+    background-color: #0A316C;
     color: white;
     transform: scale(1.1);
 }
@@ -142,7 +142,7 @@ header {
 
 .teacher-section {
     padding: 60px 20px;
-    background-color: #004b87;
+    background-color: #0A316C;
     text-align: center;
 }
 
@@ -162,7 +162,7 @@ header {
 }
 
 .teacher-card-right {
-    background-color: #003060;
+    background-color: #0A316C;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -193,7 +193,7 @@ header {
 }
 
 .teacher-card-left {
-    background-color: #003060;
+    background-color: #0A316C;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -224,7 +224,7 @@ header {
 }
 
 footer {
-    background-color: #003060;
+    background-color: #0A316C;
     color: white;
     padding: 40px 0;
     margin-top: 60px;
@@ -256,7 +256,7 @@ footer a {
     font-size: 1.1rem;
     color: #e0e0e0;
     text-align: justify;
-    background: linear-gradient(180deg, #004b87, #003560);
+    background: linear-gradient(180deg, #0A316C, #003560);
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transform: translateY(0);
@@ -314,7 +314,7 @@ footer a {
 }
 
 .box legend {
-    color: #004b87;
+    color: #0A316C;
     font-size: 22px;
     font-weight: bold;
     padding: 0 15px;
@@ -356,7 +356,7 @@ footer a {
 }
 
 fieldset.quiz {
-    color: #003060;
+    color: #0A316C;
     font-weight: bold;
     font-size: 18px;
 }
@@ -381,7 +381,7 @@ fieldset.quiz input[type="checkbox"] {
 
 .box input[type="button"],
 .box input[type="submit"] {
-    background-color: #004b87;
+    background-color: #0A316C;
     color: #ffffff;
     border: none;
     padding: 15px 30px;
@@ -417,12 +417,12 @@ fieldset.quiz input[type="checkbox"] {
 
 #results th {
     background-color: #d5ebfd; /* Green header (change to match your theme) */
-    color: #003060;
+    color: #0A316C;
     padding: 12px 15px;
 }
 
 #results td {
     padding: 10px 15px;
     border-bottom: 1px solid #ddd;
-    color : #003060;
+    color : #0A316C;
 }
