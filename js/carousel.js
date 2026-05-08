@@ -1,7 +1,7 @@
 const slide = document.querySelector('.carousel-slide');
 const images = document.querySelectorAll('.carousel-slide img');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
+const prevBtn = document.querySelector('.prevBtn'); 
+const nextBtn = document.querySelector('.nextBtn');
 
 let counter = 0;
 

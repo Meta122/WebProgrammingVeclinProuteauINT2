@@ -28,24 +28,27 @@
     </header>
 
     <main>
-        <section class="home-section">
+        <section class="carousel-section, home-section" >
             <h1>Faculties</h1>
-            
 
-            <img src="../assets/efrei-batiment.jpg" alt="Faculties Image" class="faculties-image">
-            <br>
-
-            <div class="container-group">
-                <p class = "text-container">Learn more about our faculties.</p>
-            </div>
-            <br>
-             <div class="logo">
-                <a href="https://www.efrei.fr">
-                    <img src="../assets/logo_efrei.png" alt="Efrei Logo">
-                </a>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="../assets/efrei-batiment.jpg" alt="Campus Efrei">
+                    <img src="../assets/photo-efrei.jpg" alt="Campus Efrei">
+                    <img src="../assets/efreicampusbordeauxentree.jpg" alt="Campus Efrei Bordeaux">
+                </div>
+                <div class="carousel-controls">
+                    <button class="prevBtn">&#10094;</button>
+                    <button class="nextBtn">&#10095;</button>
+                </div>
             </div>
 
+            <br>
+
+            <p class="text-container">Efrei has two campuses, one in Villejuif, near Paris, and another in Bordeaux. Both campuses offer state-of-the-art facilities, 
+                including modern classrooms, laboratories, and collaborative spaces designed to foster innovation and creativity among students.</p>
         </section>
+
     </main>
 
     <footer>
@@ -58,5 +61,6 @@
             </nav>
         </div>
     </footer>
+    <script src="../js/carousel.js"></script>
 </body>
 </html>
