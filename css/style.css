@@ -53,7 +53,7 @@ header {
 }
 
 .home-section {
-    background: linear-gradient(145deg, #0A316C, #001f3f);
+    background: linear-gradient(145deg, #154da1, #001f3f);
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -142,12 +142,12 @@ header {
 
 .teacher-section {
     padding: 60px 20px;
-    background-color: #0A316C;
+    background-color: #ffffff;
     text-align: center;
 }
 
 .teacher-section h2 {
-    color: white;
+    color: 0A316C;
     margin-bottom: 40px;
     font-weight: 700;
     font-size: 30px;
