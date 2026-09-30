@@ -2,7 +2,7 @@
 
 A static, academic web project by Rafael Véclin and Maël Prouteau for Efrei P2-INT2. It presents a sample Computer Science department site with program, faculty and professor pages, an event carousel, and an interactive quiz. It is a student project, not an official Efrei website.
 
-![Campus photograph used by the site](assets/photo-efrei.jpg)
+[View the live demo](https://meta122.github.io/WebProgrammingVeclinProuteauINT2/)\n\n![Campus photograph used by the site](assets/photo-efrei.jpg)
 
 ## Features
 
@@ -31,7 +31,7 @@ Then visit `http://localhost:8000/html/`. Relative links load the CSS, JavaScrip
 - `assets/`: images used by the site
 - Root `index.html`: entry point forwarding static hosts to `html/index.html`
 
-GitHub Pages can serve the repository root once Pages is enabled for the `main` branch. A public Pages URL is not claimed until that setting is confirmed.
+GitHub Pages publishes the repository root from the `main` branch. The root entry point forwards visitors to `html/index.html`.
 
 ## Team and license
 
